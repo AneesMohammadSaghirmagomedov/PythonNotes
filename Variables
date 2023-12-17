@@ -1,0 +1,28 @@
+#variables
+name = "bro" #dimming
+print(name)  #printing
+print("hello"+name) #concatenating
+
+print(type(name)) #DataType
+
+age = 21 #integer has no ""
+
+ # age = age + 1 is the same as: age += 1
+
+print("your age is: "+age) #There is error as you can't concatenate str with int
+# to tackle this we do the following>
+    print("your age is: "+str(age))
+# no error as age var has been changed to str
+
+#------------------------------------------
+#FLOAT DATA TYPE
+
+height = 250.5
+print(height)
+
+#----------------------------------------------
+#BOOLEAN
+human = False
+print(human)
+print("are you a human: "+str(human)) #concatenating diff data types
+print(type(human)) #data type printing
