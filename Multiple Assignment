@@ -1,0 +1,25 @@
+#Mulitple Assignment = assign multiple variables at the same time in one line of code
+
+# name = "anees"
+# age = 21             ---- This is in-efficient
+# attractive = True
+
+# a better way to do this would be :
+    name, age, attractive = "anees", 21, True # only 1 line of code is used.
+print(name)
+print(age)
+print(attractive)
+
+#---------------------------------------------------
+
+# spongebob = 30
+# patrick = 30       ---- In-Efficient
+# sandy = 30
+# squidward = 30
+# a better way would be --->
+spongebob = patrick = sandy = squidward = 30  # more efficient as one line is used
+
+print(spongebob)
+print(patrick)
+print(sandy)
+print(squidward)
