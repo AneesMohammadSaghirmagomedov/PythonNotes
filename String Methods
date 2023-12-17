@@ -1,0 +1,22 @@
+# String Methods
+
+name = "anees"
+print(len(name)) # Prints the length of name.
+
+print(name.find("e")) # Find position of a character within a string.
+
+print(name.capitalize()) # Capitalizes the first letter w/ out spaces.
+
+print(name.upper()) # Makes name all upper case.
+
+print(name.lower()) # Makes name all lower case.
+
+print(name.isdigit()) # TRUE - if string contains digits.
+
+print(name.isalpha()) # Checks if the string contains only letters.
+
+print(name.count("o")) # Counts how many specific characters are in a string.
+
+print(name.replace("e","o")) # Replaces all the characters with a specific one.
+
+print(name*10) # Multiplies the value/string.
