@@ -1,0 +1,17 @@
+# Type Casting = convert the data type of a value to another data type
+
+x = 1 # Int
+y = 2.0 # Float
+z = "3" # str
+
+# int(y) would turn var y into an integer data type.
+
+
+
+print(x)
+print(y) # print(int(y)) ---- This would temporarily cast this to an int data type
+print(z)
+
+y = int(y) # This would Permanently cast this to an int data type
+z = int(z) # Type casts z into int allowing us to perform calculations on it
+print(z*3) # Example of performing a calculation after type casting
