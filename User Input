@@ -1,0 +1,9 @@
+# User Input
+
+age = input("how old are you?: ")  # Assigns the input to a variable
+age += 1 # This line would result in an error as we can't do calculations as all inputs are strings
+         
+# HOW TO FIX THIS :-
+    age = int(input("what is your age?: ")) # We cast the input as int so we can use it for calculations
+
+print("you are "+str(age)+" years old") # Notice how we cast age back to str?
