@@ -1,0 +1,23 @@
+# Import Math
+import math
+
+x = 1
+y = 2
+z = 3
+pi = 3.14
+
+print(round(pi))  # Rounds to the nearest whole integer.
+
+print(math.ceil(pi))  # Rounds UP.
+
+print(math.floor(pi))  # Rounds DOWN.
+
+print(abs(pi))  # How far the number is from 0 e.g: -1's abs would be 1 (+ve).
+
+print(pow(pi, 2))  # Number to the power of x (in this case, 2).
+
+print(math.sqrt(pi))  # Finds Square Root of a number.
+
+print(max(x, y, z)) # Finds Max of these values.
+
+print(min(x, y, z)) # Finds the Min of the values.
