@@ -1,0 +1,25 @@
+# slicing = create a substring by extracting characters from another string
+#           indexing[] or slice()
+#           [start:stop:step] ~side note: the "stop" index is exclusive meaning not including
+#           starts ON character and end BEFORE character
+name = "Anees Saghir"
+
+first_name = name[:5] # This will give the first name as the final character is actually 4
+#                       "0:" is not included at start as it is default
+
+funky_name = name[0:12:1] # This will display my Normal Name.
+funky_name = name[0:12:2] # This will display every 2nd character including first.
+#                 ^ ^ If These two indexes are left blank then the program assumes
+#                     to be the start and the end of the string.
+
+reversed_name = name[::-1] # This "counts back" essentially REVERSES our string
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#Slice()  ~ (start, stop, step)
+
+website = "http://google.com" # we want only the web name "google" in this url
+
+slice = slice(7,-4)  # the negative stop is used counting back from ".com" to go
+#                      till whatever lies before that
+
+print(website[slice]) # applies the slice
