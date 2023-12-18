@@ -1,0 +1,15 @@
+#logical operators (and, or, not) = used to check if two or more conditional statements are true
+
+temp = int(input("what is the temperature outside?: "))
+
+# AND
+if temp >=0 and temp <= 30:  # Both conditions must be true for statement to work
+    print("the temperature is good today")
+
+# OR
+elif temp < 0 or temp >30:  # Only one condition must be true for statement to work
+    print("the temp is low today")
+
+# NOT
+elif not(temp >=0 and temp <= 30): # Conditions are flipped
+    print("impossible temperature") # condition cannot be met
