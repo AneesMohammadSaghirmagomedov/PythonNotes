@@ -1,0 +1,15 @@
+# While Loop will execute blocks of code while a condition is true
+
+name = ""
+
+while len(name) == 0:
+    name = input("Enter Your Name ")
+
+print("hello "+name)
+
+# Can also be re-written as:
+name = None
+
+while not name:
+    name = input("Enter Your Name ")
+print("hello "+name)
